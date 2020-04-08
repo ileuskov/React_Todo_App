@@ -1,17 +1,17 @@
-Hello there! This is a small React.js project I was able to code during the Ninja's React for beginners course
+Hello there! This is a small React.js project I was able to code during the Ninja's React for beginners course.
+Now I know that this a pretty complicated project for a beginner. Besides I didn't code a lot of code myself as many files were just dowloaded from a default React app creation.
 
-This is an important step for me as I am trying to get into the back end basics.
-I decided to learn Node.js since it's quite a popular back end JS environment and it was a good way to upgrade my JS skills as well
+My main goal here was to understand the MVC model and to work with 3 files really: App.js, AppTodo.js and Todos.js.
+The main functionality is adding and deleting Todos from the dynamic html list. Similar to Node.js Todo App I handle the add the delete requests via separate files (AddTodo.js and Todos.js) that take care of the Todo array. Those files are then exported to the App.js where they are used to display the todo list dynamically. 
 
 The app is made with:
 1) HTML, 
 2) CSS,
 3) JS,
-4) Node.js
-5) React.js
-6) 
+4) Node.js,
+5) and React.js
 
-The main function of this Todo list app is that instead of just removing or adding a Todo in a li part of the list, it handles the get, post and delete  requests via the Node.js and express. It can add a new Todo by typing it and hitting enter or "Add a Todo" and delete a Todo by clicking on it.
+To start the app you need to have the Node.js. In the terminal just type "npm start" and get to your localhost. The app should be working there.
 
 The page is fully responsive and can be read comfortably from any screen. 
 Please let me know if I have made any mistakes or my code could be refactored in a more efficient way. Thanks in advance!
