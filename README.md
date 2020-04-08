@@ -1,8 +1,9 @@
 Hello there! This is a small React.js project I was able to code during the Ninja's React for beginners course.
-Now I know that this a pretty complicated project for a beginner. Besides I didn't code a lot of code myself as many files were just dowloaded from a default React app creation.
 
-My main goal here was to understand the MVC model and to work with 3 files really: App.js, AppTodo.js and Todos.js.
-The main functionality is adding and deleting Todos from the dynamic html list. Similar to Node.js Todo App I handle the add the delete requests via separate files (AddTodo.js and Todos.js) that take care of the Todo array. Those files are then exported to the App.js where they are used to display the todo list dynamically. 
+Now I know that this is a pretty complicated project for a beginner. Besides I didn't code a lot of code myself as many files were just inherited from a default React app creation.
+
+My main goal here was to understand the MVC model and to work with 3 files: App.js, AppTodo.js and Todos.js.
+The main functionality is adding and deleting Todos from the dynamic html list. Similar to Node.js Todo App I handle the add and the delete requests via separate files (AddTodo.js and Todos.js) that take care of the Todo array. Those files are then exported to the App.js where they are used to display the todo list dynamically. 
 
 The app is made with:
 1) HTML, 
